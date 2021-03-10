@@ -5,9 +5,7 @@
   "description": "A highly optimized pure JS implementation of Range Slider for React Native",
   "homepage": "https://github.com/githuboftigran/rn-range-slider",
   "main": "index.js",
-  "scripts": {
-    "test": ""
-  },
+  "types": "index.d.ts",
   "keywords": [
     "react",
     "native",
@@ -21,13 +19,17 @@
     "slider",
     "seekbar"
   ],
-  "repository" : {
+  "repository": {
     "type": "git",
     "url": "https://github.com/githuboftigran/rn-range-slider.git"
   },
   "dependencies": {
+    "react": "16.9.0",
+    "react-native": "0.61.5"
   },
   "devDependencies": {
+    "@types/react": "^16.9.56",
+    "@types/react-native": "^0.63.34"
   },
   "license": "MIT"
 }
