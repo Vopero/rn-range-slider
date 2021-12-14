@@ -15,7 +15,7 @@ declare module "rn-range-slider" {
     renderRailSelected: React.FC<>;
     renderLabel?: React.FC<{ value: number }>;
     renderNotch?: React.FC<>;
-    onValueChanged: (low: number, high: number) => void;
+    onValueChanged: (low: number, high: number, fromUser: boolean) => void;
     onTouchStart?: () => void;
     onTouchEnd?: () => void;
   }
